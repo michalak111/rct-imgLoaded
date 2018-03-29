@@ -1,0 +1,32 @@
+{
+  "name": "rct-imgLoaded",
+  "version": "1.0.0",
+  "description": "React component for showing loader when image isn't fully loaded",
+  "main": "index.js",
+  "author": "Jan Michalak",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.8.3",
+    "parcel-bundler": "^1.7.0",
+    "prettier": "^1.11.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "parser": "flow",
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "arrowParens": "always"
+  }
+}
