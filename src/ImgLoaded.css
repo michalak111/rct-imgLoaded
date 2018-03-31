@@ -1,0 +1,7 @@
+.loading {
+    background: gray;
+    background-image: url("./loader.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2;
+}

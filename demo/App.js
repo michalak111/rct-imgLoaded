@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import './App.scss'
-import ImgLoaded from './ImgLoaded'
+import ImgLoaded from '../src/index'
 
 export default class App extends Component {
   render() {
